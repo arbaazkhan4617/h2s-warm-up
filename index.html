@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Cooking Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>🍳 AI Cooking Assistant</h1>
+            <p>
+                Generate a personalized meal plan, grocery list, ingredient substitutions,
+                and cooking checklist.
+            </p>
+        </header>
+
+        <section class="form-section">
+
+            <div class="input-group">
+                <label for="diet">Diet Preference</label>
+
+                <select id="diet">
+                    <option value="vegetarian">Vegetarian</option>
+                    <option value="vegan">Vegan</option>
+                    <option value="high-protein">High Protein</option>
+                    <option value="keto">Keto</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="budget">Budget (₹)</label>
+                <input
+                    type="number"
+                    id="budget"
+                    placeholder="Enter your budget">
+            </div>
+
+            <div class="input-group">
+                <label for="people">People</label>
+                <input
+                    type="number"
+                    id="people"
+                    min="1"
+                    value="2">
+            </div>
+
+            <button id="generateBtn">
+                Generate Plan
+            </button>
+
+        </section>
+
+        <section id="result" class="hidden">
+
+            <div class="card">
+
+                <h2>🥞 Meal Plan</h2>
+
+                <div class="meal">
+                    <h3>Breakfast</h3>
+                    <p id="breakfast"></p>
+                </div>
+
+                <div class="meal">
+                    <h3>Lunch</h3>
+                    <p id="lunch"></p>
+                </div>
+
+                <div class="meal">
+                    <h3>Dinner</h3>
+                    <p id="dinner"></p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <h2>🛒 Grocery List</h2>
+
+                <ul id="groceryList"></ul>
+
+            </div>
+
+            <div class="card">
+
+                <h2>🔄 Ingredient Substitutions</h2>
+
+                <ul id="substitutions"></ul>
+
+            </div>
+
+            <div class="card">
+
+                <h2>💰 Budget Feasibility</h2>
+
+                <p id="budgetStatus"></p>
+
+            </div>
+
+            <div class="card">
+
+                <h2>👨‍🍳 Cooking To-Do List</h2>
+
+                <ol id="todoList"></ol>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

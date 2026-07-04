@@ -1,0 +1,135 @@
+{
+  "vegetarian": {
+    "breakfast": "Vegetable Poha with Curd",
+    "lunch": "Dal, Rice, Mixed Vegetable Curry & Salad",
+    "dinner": "Paneer Bhurji with Chapati",
+    "grocery": [
+      "Poha",
+      "Curd",
+      "Rice",
+      "Toor Dal",
+      "Paneer",
+      "Tomato",
+      "Onion",
+      "Capsicum",
+      "Carrot",
+      "Beans",
+      "Spinach",
+      "Chapati Flour",
+      "Cooking Oil",
+      "Salt",
+      "Turmeric",
+      "Cumin",
+      "Coriander Powder"
+    ],
+    "substitutions": [
+      "Paneer → Tofu",
+      "Curd → Soy Yogurt",
+      "Rice → Quinoa",
+      "Chapati → Multigrain Roti"
+    ],
+    "todo": [
+      "Wash and chop vegetables.",
+      "Cook dal and rice.",
+      "Prepare breakfast.",
+      "Cook paneer bhurji.",
+      "Pack leftovers for next meal."
+    ],
+    "estimatedCost": 850
+  },
+
+  "vegan": {
+    "breakfast": "Oats with Almond Milk & Fruits",
+    "lunch": "Quinoa Salad with Chickpeas",
+    "dinner": "Tofu Stir Fry with Brown Rice",
+    "grocery": [
+      "Oats",
+      "Almond Milk",
+      "Banana",
+      "Apple",
+      "Quinoa",
+      "Chickpeas",
+      "Tofu",
+      "Brown Rice",
+      "Broccoli",
+      "Bell Pepper",
+      "Olive Oil",
+      "Garlic",
+      "Lemon"
+    ],
+    "substitutions": [
+      "Milk → Almond Milk",
+      "Paneer → Tofu",
+      "Butter → Olive Oil"
+    ],
+    "todo": [
+      "Cook quinoa.",
+      "Boil chickpeas.",
+      "Chop vegetables.",
+      "Prepare tofu stir fry.",
+      "Store leftovers."
+    ],
+    "estimatedCost": 950
+  },
+
+  "high-protein": {
+    "breakfast": "Boiled Eggs & Oats",
+    "lunch": "Grilled Chicken with Rice",
+    "dinner": "Paneer & Sprouts Salad",
+    "grocery": [
+      "Eggs",
+      "Oats",
+      "Chicken Breast",
+      "Rice",
+      "Paneer",
+      "Sprouts",
+      "Spinach",
+      "Greek Yogurt",
+      "Olive Oil"
+    ],
+    "substitutions": [
+      "Chicken → Soya Chunks",
+      "Eggs → Tofu",
+      "Greek Yogurt → Curd"
+    ],
+    "todo": [
+      "Boil eggs.",
+      "Cook rice.",
+      "Grill chicken.",
+      "Prepare salad.",
+      "Store meals."
+    ],
+    "estimatedCost": 1200
+  },
+
+  "keto": {
+    "breakfast": "Cheese Omelette",
+    "lunch": "Grilled Fish with Salad",
+    "dinner": "Chicken Soup",
+    "grocery": [
+      "Eggs",
+      "Cheese",
+      "Fish",
+      "Chicken",
+      "Lettuce",
+      "Cucumber",
+      "Butter",
+      "Olive Oil",
+      "Cream",
+      "Garlic"
+    ],
+    "substitutions": [
+      "Fish → Chicken",
+      "Butter → Ghee",
+      "Cream → Coconut Cream"
+    ],
+    "todo": [
+      "Prepare omelette.",
+      "Grill fish.",
+      "Make chicken soup.",
+      "Prepare salad.",
+      "Store leftovers."
+    ],
+    "estimatedCost": 1500
+  }
+}
